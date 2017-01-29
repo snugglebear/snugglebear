@@ -54,7 +54,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/st_louis.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -71,7 +71,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.5) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -83,7 +83,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: white;
 }
 .card {
   margin: 30px;
@@ -202,5 +202,9 @@ a.social:hover {
     margin: 40px auto;
   }
 
+}
+h3{
+  color: green;
+  font-family: Ariel;
 }
 
